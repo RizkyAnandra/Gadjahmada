@@ -10,7 +10,7 @@ $database = "ppdb";
 
 // Koneksi dan memilih database di server
 $query = mysqli_connect($server,$username,$password) or die("Koneksi gagal");
-mysqli_select_db($query,$database) or die("Database tidak bisa dibuka");
+mysqli_select_db($query,$database) or die("Maaf DB belum tersedia");
 
 // buat variabel untuk validasi dari file fungsi_validasi.php
 $val = new validasi;
